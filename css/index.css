@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    box-sizing: border-box;
+    background-color: black;
+    opacity: 1;
+}
+
+/* Introduction */
+
+.intro .container-fluid {
+    height: 100vh !important;
+    background-color: black;
+    background: url(https://thumbs.gfycat.com/CheerySeparateGoldeneye-small.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.intro-heading , .intro-heading-tagline {
+    top: 30%;
+    margin-left: 10%;
+    position: relative;
+    padding: 10px;
+    line-height: 40px;
+    color: whitesmoke;
+}
+.intro-heading:hover {
+    opacity: 1;
+    color: whitesmoke;
+}
+.intro-heading {
+    font-size: 5rem;
+    word-spacing: 10px;
+}
+.intro-heading-tagline {
+    font-size: 2rem;
+}
+.btn {
+    top: 34%;
+    position: relative;
+    margin-left: 10.5%;
+    padding: 13px;
+    width: 200px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.intro .container-fluid .fa {
+    padding-left: 15px;
+    font-size: 15px;
+}

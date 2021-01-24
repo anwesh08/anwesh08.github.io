@@ -1,0 +1,32 @@
+.aside .logo a::before {
+    border-top: 4px solid #651fff;
+    border-left: 4px solid #651fff;
+}
+.aside .logo a::after{
+    border-bottom: 4px solid #651fff;
+    border-right: 4px solid #651fff;
+}
+.about .about-content .about-text h3 span {
+    color: #ec1839;
+}
+.lightbox .lightbox-controls .prev-item .fa,
+.lightbox .lightbox-controls .next-item .fa,
+.project .project-item .project-info .icon .fa,
+.contact .contact-info-item .icon .fa,
+body.dark .aside .nav li a:hover,
+.aside .nav li a:hover,
+body.dark .aside .nav li a.active,
+.aside .nav li a.active,
+.about .about-content .about-tabs .tab-item.active {
+    color: #1e88e5;
+}
+.btn,
+.about .about-content .skills .skill-item .progress .progress-in,
+.section-title h2::before,
+.section-title h2::after,
+.aside .nav-toggler span,
+.aside .nav-toggler span::before, 
+.aside .nav-toggler span::after,
+.home .intro .social-links a {
+    background-color: #1e88e5;
+}
